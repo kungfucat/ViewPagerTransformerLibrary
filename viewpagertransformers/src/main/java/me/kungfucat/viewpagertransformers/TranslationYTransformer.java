@@ -17,7 +17,11 @@ import android.view.View;
 
 public class TranslationYTransformer implements ViewPager.PageTransformer {
     public static final int TOP_TO_BOTTOM = 1, BOTTOM_TO_TOP = 2;
-    public int ANIMATE_TYPE = 1;
+    public int ANIMATE_TYPE = 2;
+
+    public TranslationYTransformer(){
+
+    }
 
     public TranslationYTransformer(int ANIMATE_TYPE) {
         this.ANIMATE_TYPE = ANIMATE_TYPE;
