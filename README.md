@@ -1,6 +1,10 @@
 # ViewPagerTransformerLibrary
 A library that contains animations for the viewpager in android.
 
+<br>
+
+[![Release](https://jitpack.io/v/com.github.kungfucat/ViewPagerTransformerLibrary.svg)](https://jitpack.io/#com.github.kungfucat/ViewPagerTransformerLibrary)
+
 ## Transformers Available 
 
 ### 1. Default Transformer
@@ -57,6 +61,27 @@ Select a Random Transformer from the available ones.
 
 Options :```viewPager.setPageTransformer(true,new RandomTransformer());```
 
+<br>
+
+## Add to your project
+
+- Add the jitpack maven repository
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+- Add the dependency
+
+```groovy	
+dependencies {
+          compile 'com.github.kungfucat:ViewPagerTransformerLibrary:v1.0.0'
+}
+```
 
 ## Usage 
 ```java
@@ -65,7 +90,6 @@ Options :```viewPager.setPageTransformer(true,new RandomTransformer());```
         viewPager.setAdapter(pagerAdapter);
         viewPager.setPageTransformer(true, new CubeOutTransformer());
 ```
-
 
 ## Contributing
 
