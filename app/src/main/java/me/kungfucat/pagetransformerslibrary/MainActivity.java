@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-import me.kungfucat.viewpagertransformers.DefaultTransformer;
+import me.kungfucat.viewpagertransformers.TranslationYTransformer;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
         ViewPagerAdapter pagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), colorArrayList);
         viewPager.setAdapter(pagerAdapter);
-        viewPager.setPageTransformer(true, new DefaultTransformer());
+//        viewPager.setPageTransformer(true, new DefaultTransformer());
+        viewPager.setPageTransformer(true, new TranslationYTransformer(TranslationYTransformer.TOP_TO_BOTTOM));
     }
 
 
