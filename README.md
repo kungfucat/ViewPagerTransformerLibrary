@@ -40,9 +40,9 @@ Options : ```viewPager.setPageTransformer(true, new ScaleTransformer());```
 ### 4. TranslateY Transformer
 
 Options : 
-- Not specifying movement side:  ```viewPager.setPageTransformer(true, new TranslationYTransformer());```
+- Not specifying movement direction:  ```viewPager.setPageTransformer(true, new TranslationYTransformer());```
 
-- Specifying movement side:  ```viewPager.setPageTransformer(true, new TranslationYTransformer(TOP_TO_BOTTOM));```
+- Specifying movement direction:  ```viewPager.setPageTransformer(true, new TranslationYTransformer(TOP_TO_BOTTOM));```
 
 > Movement options available are TOP_TO_BOTTOM & BOTTOM_TO_TOP.
 
