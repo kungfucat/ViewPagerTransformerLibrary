@@ -10,8 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-import me.kungfucat.viewpagertransformers.RandomTransformer;
-import me.kungfucat.viewpagertransformers.ScaleTransformer;
+import me.kungfucat.viewpagertransformers.WindmillTransformer;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
 //        viewPager.setPageTransformer(true, new DefaultTransformer());
 //        viewPager.setPageTransformer(true, new TranslationYTransformer(TranslationYTransformer.TOP_TO_BOTTOM));
 //        viewPager.setPageTransformer(true,new CubeOutTransformer());
-        viewPager.setPageTransformer(true, new RandomTransformer());
+//        viewPager.setPageTransformer(true, new RandomTransformer());
+        viewPager.setPageTransformer(true, new WindmillTransformer(WindmillTransformer.BOTTOM_RIGHT_CORNER));
     }
 
 
