@@ -11,7 +11,7 @@ public class RandomTransformer implements ViewPager.PageTransformer {
     private ViewPager.PageTransformer transformer = new DefaultTransformer();
 
     public RandomTransformer() {
-        int optionsAvailable = 12;
+        int optionsAvailable = 15;
 
         transformer = new DefaultTransformer();
         Random random = new Random();
@@ -52,6 +52,15 @@ public class RandomTransformer implements ViewPager.PageTransformer {
                 break;
             case 11:
                 transformer = new DepthPageTransformer();
+                break;
+            case 12:
+                transformer = new RotateAboutBottomTransformer();
+                break;
+            case 13:
+                transformer = new RotateAboutTopTransformer();
+                break;
+            case 14:
+                transformer = new RaiseFromCenterTransformer();
                 break;
         }
     }
