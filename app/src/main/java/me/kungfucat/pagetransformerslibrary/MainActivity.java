@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
+import me.kungfucat.viewpagertransformers.DepthPageTransformer;
 import me.kungfucat.viewpagertransformers.WindmillTransformer;
 import me.kungfucat.viewpagertransformers.ZoomOutPageTransformer;
 
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 //        viewPager.setPageTransformer(true, new TranslationYTransformer(TranslationYTransformer.TOP_TO_BOTTOM));
 //        viewPager.setPageTransformer(true,new CubeOutTransformer());
 //        viewPager.setPageTransformer(true, new RandomTransformer());
-        viewPager.setPageTransformer(true, new ZoomOutPageTransformer(true));
+        viewPager.setPageTransformer(true, new DepthPageTransformer());
     }
 
 
