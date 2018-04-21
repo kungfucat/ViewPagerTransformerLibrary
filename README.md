@@ -98,11 +98,37 @@ Options :
 </p>
 
 
-### 9. Random Transformer
+### 9. RaiseFromCenter Transformer
+
+Options : ```viewPager.setPageTransformer(true, new RaiseFromCenterTransformer());```
+
+<p align="center">
+          <img src="https://user-images.githubusercontent.com/20863182/39087431-7f02efb4-45be-11e8-84f9-7b5c4064f9a2.gif" width="270" height="480"/>
+</p>
+
+
+### 10. RotateAboutTop Transformer
+
+Options : ```viewPager.setPageTransformer(true, new RotateAboutTopTransformer());```
+
+<p align="center">
+          <img src="https://user-images.githubusercontent.com/20863182/39087482-3a1b0d5e-45bf-11e8-8e06-a22090848eaf.gif" width="270" height="480"/>
+</p>
+
+
+### 11. RotateAboutBottom Transformer
+
+Options : ```viewPager.setPageTransformer(true, new RotateAboutBottomTransformer());```
+
+<p align="center">
+          <img src="https://user-images.githubusercontent.com/20863182/39087486-5721df22-45bf-11e8-84fe-3f0dc05056b4.gif" width="270" height="480"/>
+</p>
+
+### 12. Random Transformer
 
 Select a Random Transformer from the available ones.
 
-Options :```viewPager.setPageTransformer(true,new RandomTransformer());```
+Options :```viewPager.setPageTransformer(true, new RandomTransformer());```
 
 <br>
 
