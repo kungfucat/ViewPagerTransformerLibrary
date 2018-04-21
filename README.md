@@ -55,7 +55,50 @@ Options :
           <img src="https://user-images.githubusercontent.com/20863182/39064113-ec1262f8-44ea-11e8-9113-0c4cacefadca.gif" width="270" height="480"/>
 </p>
 
-### 5. Random Transformer
+### 5. DepthPage Transformer
+
+Options : ```viewPager.setPageTransformer(true, new DepthPageTransformer());```
+
+<p align="center">
+          <img src="https://user-images.githubusercontent.com/20863182/39081022-567d1e3c-4557-11e8-8eda-a42d06f84763.gif" width="270" height="480"/>
+</p>
+
+
+### 6. Drawer Transformer
+
+Options : ```viewPager.setPageTransformer(true, new DrawerTransformer());```
+
+<p align="center">
+          <img src="https://user-images.githubusercontent.com/20863182/39081035-a84aa3ba-4557-11e8-95bf-c050f439b5d3.gif" width="270" height="480"/>
+</p>
+
+
+### 7. Windmill Transformer
+
+Options : 
+- Not specifying rotation pivot:  ```viewPager.setPageTransformer(true, new WindmillTransformer());```
+
+- Specifying pivot point:  ```viewPager.setPageTransformer(true, new WindmillTransformer(WindmillTransformer.TOP_LEFT_CORNER));```
+
+> Pivot options available are TOP_LEFT_CORNER & BOTTOM_RIGHT_CORNER.
+
+
+<p align="center">
+          <img src="https://user-images.githubusercontent.com/20863182/39081072-62256d92-4558-11e8-8b79-b97c906db041.gif" width="270" height="480"/>
+</p>
+
+### 8. ZoomOut Transformer
+
+Options : 
+- Default, i.e Fade Enabled :  ```viewPager.setPageTransformer(true, new ZoomOutTransformer());```
+- Disabling Fade option :  ```viewPager.setPageTransformer(true, new ZoomOutTransformer(false));```
+
+<p align="center">
+          <img src="https://user-images.githubusercontent.com/20863182/39081079-74b2e6a6-4558-11e8-893f-cb123484d634.gif" width="270" height="480"/>
+</p>
+
+
+### 9. Random Transformer
 
 Select a Random Transformer from the available ones.
 
