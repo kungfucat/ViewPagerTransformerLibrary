@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
+import me.kungfucat.viewpagertransformers.AccordionTransformer;
 import me.kungfucat.viewpagertransformers.RaiseFromCenterTransformer;
 import me.kungfucat.viewpagertransformers.RotateAboutBottomTransformer;
 import me.kungfucat.viewpagertransformers.RotateAboutTopTransformer;
@@ -43,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 //        viewPager.setPageTransformer(true, new RandomTransformer());
 //        viewPager.setPageTransformer(true, new DepthPageTransformer());
 //        viewPager.setPageTransformer(true, new RotateAboutTopTransformer());
-        viewPager.setPageTransformer(true,new RaiseFromCenterTransformer());
+        viewPager.setPageTransformer(true,new AccordionTransformer());
     }
 
 
