@@ -124,7 +124,17 @@ Options : ```viewPager.setPageTransformer(true, new RotateAboutBottomTransformer
           <img src="https://user-images.githubusercontent.com/20863182/39087486-5721df22-45bf-11e8-84fe-3f0dc05056b4.gif" width="270" height="480"/>
 </p>
 
-### 12. Random Transformer
+
+### 12. Accordion Transformer
+
+Options : ```viewPager.setPageTransformer(true,new AccordionTransformer());```
+
+<p align="center">
+          <img src="https://user-images.githubusercontent.com/20863182/39087683-4b5ff13a-45c2-11e8-8aa7-b2e3ecfeb5d8.gif" width="270" height="480"/>
+</p>
+
+
+### 13. Random Transformer
 
 Select a Random Transformer from the available ones.
 
