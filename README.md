@@ -158,7 +158,7 @@ allprojects {
 
 ```groovy	
 dependencies {
-          compile 'com.github.kungfucat:ViewPagerTransformerLibrary:v1.1.0''
+          compile 'com.github.kungfucat:ViewPagerTransformerLibrary:v1.2.0'
 }
 ```
 
